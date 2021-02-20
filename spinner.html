@@ -7,6 +7,8 @@
 <center>
 	<br><br><br><br><br><br><br>
 <form>
+	<label for="fname">Enter how many to randomize</label>
+	<input type="text" id="name1" name="name1"><br><br>
 	<label for="fname">Name 1 : </label>
 	<input type="text" id="name1" name="name1"><br><br>
 	<label for="lname">Name 2 : </label>
@@ -45,9 +47,11 @@
 			}
 			else {
 				alert("Please enter something in the field box");
+				break;
 
 			}
 		}
+
 		
 		alert(item.value);
 	}
