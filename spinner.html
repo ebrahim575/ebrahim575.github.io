@@ -3,7 +3,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<form action="/action_page.php">
+
+<center>
+	<br><br><br><br><br><br><br>
+<form>
 	<label for="fname">Name 1 : </label>
 	<input type="text" id="name1" name="name1"><br><br>
 	<label for="lname">Name 2 : </label>
@@ -14,8 +17,18 @@
 	<input type="text" id="name4" name="name4"><br><br>
 	<label for="fname">Name 5 : </label>
 	<input type="text" id="name5" name="name5"><br><br>
-	
-	<button onclick="myFunction()">Random!</button>
+	<label for="fname">Name 6 : </label>
+	<input type="text" id="name5" name="name5"><br><br>
+	<label for="fname">Name 7 : </label>
+	<input type="text" id="name5" name="name5"><br><br>
+	<label for="fname">Name 8 : </label>
+	<input type="text" id="name8" name="name8"><br><br>
+	<label for="fname">Name 9 : </label>
+	<input type="text" id="name9" name="name9"><br><br>
+	<label for="fname">Name 10 : </label>
+	<input type="text" id="name10" name="name10"><br><br>
+	<button onclick="myFunction()">Randomize!</button>
+	<button onclick="myFunction2()">Biased</button>
 
 </form>
 <script>
@@ -23,12 +36,42 @@
 
 	function myFunction() {
 		var items = Array(name1, name2, name3, name4, name5);
+		
+		while (1) {
+			var item = items[Math.floor(Math.random() * items.length)];
 
-		var item = items[Math.floor(Math.random() * items.length)];
+			if(item.value) {
+				break;
+			}
+			else {
+				alert("Please enter something in the field box");
+
+			}
+		}
+		
+		alert(item.value);
+	}
+
+	function myFunction2() {
+		var items = Array(name1, name2, name3, name4, name5);
+
+		while (1) {
+			var item = items[Math.floor(Math.random() * items.length)];
+
+			if (item.value) {
+				break;
+			}
+			else {
+				alert("Please enter something in the field box");
+
+			}
+		}
 
 		alert(item.value);
 	}
-</script>
 
+
+</script>
+</center>
 
 </html>
