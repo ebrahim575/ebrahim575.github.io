@@ -76,6 +76,11 @@
 
 		alert(item.value);
 	}
+	function myFunction3() {
+		fetch("https://api.openweathermap.org/data/2.5/weather?q=wheaton&appid=03be736b423633f144c3cb5bf551ab07")
+			.then(response => response.json())
+			.then(data => console.log(data));
+	}
 
 
 </script>
