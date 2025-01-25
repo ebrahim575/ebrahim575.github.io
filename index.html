@@ -1,241 +1,279 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>ebrahim's website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload landing">
-		<div id="page-wrapper">
+  <head>
+    <title>ebrahim's website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/toggle-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload landing">
+    <div class="toggle-container">
+      <span>Portfolio</span>
+      <label class="switch">
+        <input type="checkbox" id="pageToggle" checked>
+        <span class="slider"></span>
+      </label>
+      <span>Services</span>
+    </div>
 
-			<!-- Header -->
-				<header id="header">
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li><a href="spinner.html">Spinner!</a></li>
+    <div id="services-page" style="display: block;">
+      <div class="services-header">
+        <img src="images/pfp.jpg" alt="Ebrahim Zulqarni" class="header-profile-image">
+        <h2>Ebrahim's Services</h2>
+        <p>Expert solutions in web development, automation, and technical education. Let's build something amazing together.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div>
+            <h3>Web Development</h3>
+            <p>Custom websites and web applications built with modern technologies. Focusing on clean design, performance, and user experience.</p>
+            <p class="rate">Starting at $50/hour</p>
+          </div>
+          <a href="mailto:ezulqarni@gmail.com" class="contact-btn">Discuss Your Project →</a>
+        </div>
+        <div class="service-card">
+          <div>
+            <h3>Programming Mentorship</h3>
+            <p>Personalized coding tutorials and mentorship. Master Python, JavaScript, APIs, and web development fundamentals.</p>
+            <p class="rate">$40/hour</p>
+          </div>
+          <a href="mailto:ezulqarni@gmail.com" class="contact-btn">Start Learning →</a>
+        </div>
+        <div class="service-card">
+          <div>
+            <h3>Automation Solutions</h3>
+            <p>Custom automation tools, bots, and scripts to streamline your workflows and increase productivity.</p>
+            <p class="rate">Starting at $45/hour</p>
+          </div>
+          <a href="mailto:ezulqarni@gmail.com" class="contact-btn">Automate Your Work →</a>
+        </div>
+        <div class="service-card">
+          <div>
+            <h3>Hardware Projects</h3>
+            <p>Custom electronic projects and prototypes. From concept to creation, bringing your hardware ideas to life.</p>
+            <p class="rate">Project-based pricing</p>
+          </div>
+          <a href="mailto:ezulqarni@gmail.com" class="contact-btn">Start Your Project →</a>
+        </div>
+      </div>
+    </div>
 
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
-						</ul>
-					</nav>
-				</header>
+    <div id="page-wrapper" style="display: none">
+      <!-- Header -->
+      <header id="header">
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#">Layouts</a>
+              <ul>
+                <li><a href="left-sidebar.html">Left Sidebar</a></li>
+                <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                <li><a href="no-sidebar.html">No Sidebar</a></li>
+                <li><a href="spinner.html">Spinner!</a></li>
+                <li>
+                  <a href="#">Submenu</a>
+                  <ul>
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#">Option 2</a></li>
+                    <li><a href="#">Option 3</a></li>
+                    <li><a href="#">Option 4</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="elements.html">Elements</a></li>
+            <li><a href="#" class="button primary">Sign Up</a></li>
+          </ul>
+        </nav>
+      </header>
 
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2>This is Ebrahim Zulqarni</h2>
-						</header>
-						<span class="image"><img src="images/pfp.jpg" alt="" /></span>
-					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
+      <!-- Banner -->
+      <section id="banner">
+        <div class="content">
+          <header>
+            <h2>This is Ebrahim Zulqarni</h2>
+          </header>
+          <span class="image"><img src="images/pfp.jpg" alt="" /></span>
+        </div>
+        <a href="#one" class="goto-next scrolly">Next</a>
+      </section>
 
-			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/chiraq.jpg" alt="" /></span>
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="col-4 col-12-medium">
-									<header>
-										<h2>About Ebrahim Zulqarni</h2>
-										<p>Computer Engineer</p>
-									</header>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p>
-										I am from the suburbs of Chicago and love learning, working out, and coffee!
-										<br><br>Currently I am a student at The University of Illinois at Chicago, 
-										pursuing a Computer Engineering degree and I am in my last year of university.
-										<br><br>This is my personal webpage where you can see projects I have worked on and more about me.
-									</p>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p>Currently I am trying to learn the following : 
-										<li>iOS App Development</li>
-										<li>Spotify API integration</li>
-										<li>Machine learning</li> 
-										<li>Familiarizing myself with using any unofficial API</li>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</section>
+      <!-- One -->
+      <section id="one" class="spotlight style1 bottom">
+        <span class="image fit main"><img src="images/chiraq.jpg" alt="" /></span>
+        <div class="content">
+          <div class="container">
+            <div class="row">
+              <div class="col-4 col-12-medium">
+                <header>
+                  <h2>About Ebrahim Zulqarni</h2>
+                  <p>Computer Engineer</p>
+                </header>
+              </div>
+              <div class="col-4 col-12-medium">
+                <p>
+                  I am from the suburbs of Chicago and love learning, working out, and coffee!
+                  <br><br>Currently I am a student at The University of Illinois at Chicago, 
+                  pursuing a Computer Engineering degree and I am in my last year of university.
+                  <br><br>This is my personal webpage where you can see projects I have worked on and more about me.
+                </p>
+              </div>
+              <div class="col-4 col-12-medium">
+                <p>Currently I am trying to learn the following : 
+                  <li>iOS App Development</li>
+                  <li>Spotify API integration</li>
+                  <li>Machine learning</li> 
+                  <li>Familiarizing myself with using any unofficial API</li>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#two" class="goto-next scrolly">Next</a>
+      </section>
 
-			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/prog2.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Personal Projects</h2>
-							<p>Twitterbot
-								<br>Textchat bot
-								<br>YouTube downloader
-								<br>Electric <a href="#rollerblades">Rollerblades</a>
-								
-							</p>
-						</header>
-						<p>
-							<h1>Twitterbot</h1>
-								<p>&emsp;Created a twitterbot that filtered tweets from 
-								<br>&emsp;other twitter accounts remove unwanted noise.
-							<h1>Textchat</h1>
-							<p>&emsp;Implemented Twilio API to create a texting 
-								<br>&emsp;service mapped to NFC Chips
-								<h1>YouTube-dl</h1>
-								<p>&emsp;Developed a Python based GUI for YouTube to 
-									<br>&emsp;mp3 and mp4 downloader
-								</p>
-						</p>
-						<ul class="actions">
-							<li><a href="https://github.com/ebrahim575" class="button">See My Github!</a></li>
-						</ul>
-					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
-				</section>
+      <!-- Two -->
+      <section id="two" class="spotlight style2 right">
+        <span class="image fit main"><img src="images/prog2.jpg" alt="" /></span>
+        <div class="content">
+          <header>
+            <h2>Personal Projects</h2>
+            <p>Twitterbot
+              <br>Textchat bot
+              <br>YouTube downloader
+              <br>Electric <a href="#rollerblades">Rollerblades</a>
+            </p>
+          </header>
+          <p>
+            <h1>Twitterbot</h1>
+            <p>&emsp;Created a twitterbot that filtered tweets from 
+            <br>&emsp;other twitter accounts remove unwanted noise.
+            <h1>Textchat</h1>
+            <p>&emsp;Implemented Twilio API to create a texting 
+              <br>&emsp;service mapped to NFC Chips
+              <h1>YouTube-dl</h1>
+              <p>&emsp;Developed a Python based GUI for YouTube to 
+                <br>&emsp;mp3 and mp4 downloader
+              </p>
+          </p>
+          <ul class="actions">
+            <li><a href="https://github.com/ebrahim575" class="button">See My Github!</a></li>
+          </ul>
+        </div>
+        <a href="#three" class="goto-next scrolly">Next</a>
+      </section>
 
-			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					
-					<span class="image fit main bottom"><img src="images/schem.jpg" alt="" /></span>
-					
-					<div class="content">
-						<header>
-							<h2 id="rollerblades">Electric Rollerblades</h2>
-							<p>Planned, designed, and built an Electric Rollerblade</p>
-						</header>
-						<p>See the video for a short commercial of our project.</p>
-						<video width="440" height="320" controls>
-							<source src="videos/ElectricRollerbladesShort.mp4" type="video/mp4">
-						</video>
+      <!-- Three -->
+      <section id="three" class="spotlight style3 left">
+        <span class="image fit main bottom"><img src="images/schem.jpg" alt="" /></span>
+        <div class="content">
+          <header>
+            <h2 id="rollerblades">Electric Rollerblades</h2>
+            <p>Planned, designed, and built an Electric Rollerblade</p>
+          </header>
+          <p>See the video for a short commercial of our project.</p>
+          <video width="440" height="320" controls>
+            <source src="videos/ElectricRollerbladesShort.mp4" type="video/mp4">
+          </video>
+        </div>
+        <a href="#four" class="goto-next scrolly">Next</a>
+      </section>
 
+      <!-- Four -->
+      <section id="four" class="wrapper style1 special fade-up">
+        <div class="container">
+          <header class="major">
+            <h2>Various Links</h2>
+          </header>
+          <div class="box alt">
+            <div class="row gtr-uniform">
+              <section class="col-4 col-6-medium col-12-xsmall">
+                <span class="icon solid alt major fa-chart-area"></span>
+                <h3>Ipsum sed commodo</h3>
+                <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+              </section>
+              <section class="col-4 col-6-medium col-12-xsmall">
+                <span class="icon solid alt major fa-comment"></span>
+                <h3>Eleifend lorem ornare</h3>
+                <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+              </section>
+              <section class="col-4 col-6-medium col-12-xsmall">
+                <span class="icon solid alt major fa-flask"></span>
+                <h3>Cubilia cep lobortis</h3>
+                <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+              </section>
+              <section class="col-4 col-6-medium col-12-xsmall">
+                <a href="https://ebrahim575.github.io/left-sidebar.html" target="_blank" i class="icon solid alt major fa-key"><span class="label">Key</span></a>
+                <h3>Кілт</h3>
+                <p>Жер<br>Жоғары<br>Моча</p>
+              </section>
+              <section class="col-4 col-6-medium col-12-xsmall">
+                <a href="https://www.youtube.com/channel/UCRYSFAcdUIw2EKqESefjU9w" target="_blank" i class="icon brands alt fab fa-youtube fa-6x"><span class="label">YouTube</span></a>
+                <br><br>
+                <h3>YouTube</h3>
+                <p>My YouTube Channel</p>
+              </section>
+              <section class="col-4 col-6-medium col-12-xsmall">
+                <a href="https://open.spotify.com/playlist/37i9dQZF1EMbNkcDs1JRYZ" target="_blank" i class="icon brands alt fab fa-spotify fa-6x"><span class="label">Spotify</span></a>
+                <br><br>
+                <h3>Spotify</h3>
+                <p>My 2020 Unwrapped</p>
+              </section>
+            </div>
+          </div>
+          <footer class="major">
+            <ul class="actions special">
+              <li><a href="https://www.youtube.com/watch?v=1vrEljMfXYo" target="_blank" class="button">Take me home</a></li>
+            </ul>
+          </footer>
+        </div>
+      </section>
 
-					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li><a href="https://twitter.com/EBZ_575" target="_blank" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="https://www.linkedin.com/in/ebrahim-zulqarni-6a3a83177/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+          <li><a href="https://www.instagram.com/ebrahim575/" target="_blank" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="https://github.com/ebrahim575" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+          <li><a href="mailto: ezulqarni@gmail.com" target="_blank" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+          <li><a href="mailto: ezulqarni@gmail.com" target="_blank" class="icon solid alt fa-key"><span class="label">temp</span></a></li>
+        </ul>
+        <ul class="copyright">
+        </ul>
+      </footer>
+    </div>
 
-			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<h2>Various Links</h2>
-						</header>
-						<div class="box alt">
-							<div class="row gtr-uniform">
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-chart-area"></span>
-									<h3>Ipsum sed commodo</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-comment"></span>
-									<h3>Eleifend lorem ornare</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-flask"></span>
-									<h3>Cubilia cep lobortis</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<a href="https://ebrahim575.github.io/left-sidebar.html" target="_blank" i class="icon solid alt major fa-key"><span class="label">Key</span></a>
-									<h3>Кілт</h3>
-									<p>Жер
-										<br>
-										Жоғары
-										<br>
-										Моча
-									</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<a href="https://www.youtube.com/channel/UCRYSFAcdUIw2EKqESefjU9w" target="_blank" i class="icon brands alt fab fa-youtube fa-6x"><span class="label">YouTube</span></a>
-									<br><br>
-									<h3>YouTube</h3>
-									<p>My YouTube Channel</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<a href="https://open.spotify.com/playlist/37i9dQZF1EMbNkcDs1JRYZ" target="_blank" i class="icon brands alt fab fa-spotify fa-6x"><span class="label">Spotify</span></a>
-									<br><br>
-									<h3>Spotify</h3>
-									<p>My 2020 Unwrapped</p>
-								</section>
-							</div>
-						</div>
-						<footer class="major">
-							<ul class="actions special">
-								<li><a href="https://www.youtube.com/watch?v=1vrEljMfXYo" target="_blank" class="button">Take me home</a></li>
-							</ul>
-						</footer>
-					</div>
-				</section>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-			<!-- Five -->
-	
+    <script>
+      document.getElementById('pageToggle').addEventListener('change', function() {
+        document.getElementById('services-page').style.display = this.checked ? 'block' : 'none';
+        document.getElementById('page-wrapper').style.display = this.checked ? 'none' : 'block';
+      });
+    </script>
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://twitter.com/EBZ_575" target="_blank" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/in/ebrahim-zulqarni-6a3a83177/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.instagram.com/ebrahim575/" target="_blank" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com/ebrahim575" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto: ezulqarni@gmail.com" target="_blank" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="mailto: ezulqarni@gmail.com" target="_blank" class="icon solid alt fa-key"><span class="label">temp</span></a></li>
-
-					</ul>
-					<ul class="copyright">
-					</ul>
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-48K366P0ST"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-48K366P0ST');
+    </script>
+  </body>
 </html>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-48K366P0ST"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag() { dataLayer.push(arguments); }
-	gtag('js', new Date());
-
-	gtag('config', 'G-48K366P0ST');
-</script>
